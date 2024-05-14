@@ -1,0 +1,34 @@
+h1{
+    font-size: 40pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(95, 93, 93)
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    border: 1px;
+    border-style: groove;
+    border-width: 5px;
+    padding: 30px;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+form{
+display: flex;
+flex-direction: column;
+}
+
+label, input,button{
+    margin: 5px;
+}
+button{
+    background-color: darkgrey;
+}
