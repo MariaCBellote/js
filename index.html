@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <title>Projeto</title>
 </head>
-<body>
-    <h1>JavaScript X DOM</h1>
-    <section>
-        <form action="#">
-<label for="EMAIL">EMAIL </label>
-<input type="email" name="EMAIL" placeholder="Digite seu email">
-<label for="NOME">NOME</label>
-<input type="text" name="NOME"  id="NOME" placeholder="Digite seu nome ">
- <button>ENTRAR</button>
-        </form>
-        
-    </section>
-    <table>
-        <thread>
-            <th>Email</th>
-            <th>Nome</th>
-            <th>Ação</th>
-        </thread>
-        <tbody>
-            <td></td>
-        </tbody>
-    </table>
 
+<body>
+    <h1>Formulário</h1>
+    <section class="One">
+        <form action="#" onsubmit="enviar(event)">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
+            <label for="nota">Nota do aluno</label>
+            <input type="number" placeholder="Nota do aluno" name="nota" min="0" max="10" required>
+            <input type="submit">
+        </form>
+    </section>
+
+    <h1>Tabela</h1>
+    <section class="two">
+
+   <table>   
+<thead>
+    <th>Email</th>
+    <th>Nome</th>
+    <th>Nota</th>
+</thead>
+<tbody>
+
+</tbody>
+</table>  
+
+    </section>
     <script src="index.js"></script>
+
 </body>
+
 </html>
